@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+	<style>
+		@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+		https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/4996edf5eb9aea434e0cbdc81923fb110a29d060/sanfrancisco-font.css
+
+		<link rel="stylesheet prefetch" href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
+
+		body{margin-top: 0;}
+
+
+
+
+
+		.border{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #707070;
+		}
+
+		.container{
+			flex-grow: 1;
+			margin: 0 auto;
+		}
+
+		.box{
+			background-color: white;
+			padding: 0px;
+			display: flex;
+			height: 1020px;
+		}
+
+		.box-sidebar{
+			background-color: white;
+			padding: 0;
+			flex-shrink: 0;
+			width: 120px;
+		}
+		
+		.box-contents{
+			background-color: white;
+			padding: 0px;
+			flex-grow: 1;
+		}
+
+		.insideline1{
+			background-color: red;
+			height: 490px;
+			display: flex;
+		}
+
+		.insideline1-1{
+			background-color: black;
+			height: 490px;
+			width: 860px;
+			flex-shrink: 0;
+		}
+
+		.insideline1-2{
+			background-color: white;
+			height: 490px;
+			flex-grow: 1;
+		}
+
+		.insideline2{
+			background-color: red;
+			height: 150px;
+			flex-grow: 1;
+			display: flex;
+		}
+
+		.insideline2-1{
+			background-color: white;
+			width: 710px;
+			height: 150px;
+		}
+
+		.insideline2-2{
+			background-color: white;
+			flex-grow: 1;
+			height: 150px;
+		}
+
+		.insideline3{
+			background-color: red;
+			height: 150px;
+			flex-grow: 1;
+			display: flex;
+		}
+
+		.insideline3-1{
+			background-color: white;
+			height: 150px;
+			width: 860px;			
+			display: flex;
+		}
+
+		.insideline3-2{
+			background-color: white;
+			height: 150px;
+			flex-grow: 1;
+			display: flex;
+		}
+
+		.insideline4{
+			background-color: red;
+			height: 150px;
+			flex-grow: 1;
+			display: flex;
+		}
+
+		.insideline4-1{
+			background-color: white;
+			height: 150px;
+			width: 560px;
+			display: flex;
+		}
+
+		.insideline4-2{
+			background-color: white;
+			height: 150px;
+			width: 300px;
+			display: flex;
+		}
+
+		.insideline4-3{
+			background-color: white;
+			height: 150px;
+			flex-grow: 1;
+		
+		}
+
+		.insideline4-3-1{
+			background-color: white;
+			height: 75px;
+			flex-grow: 1;
+		}
+
+		.insideline4-3-2{
+			background-color: white;
+			height: 75px;
+			flex-grow: 1;
+		}
+
+		.footer{
+			background-color: white;
+			height: 70px;
+			flex-grow: 1;
+		}
+
+		.blackbox{
+			width: 150px;
+			height: 150px;
+			background-color: black;
+		}
+
+		.textwhite{
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section class="box">
+			<aside class="box-sidebar border">
+				고정너비
+			</aside>
+			<div class="box-contents border">
+				<div class="insideline1 border">
+					<div class="insideline1-1 textwhite">
+						<p>2023 Galaxy Awards</p>
+					</div>
+					<div class="insideline1-2">
+						<p>2023 Galaxy Awards Submissions will close October 17th</p>
+						<p>MAY 2, 2023</p>
+
+						<p>Nominations for the 2023 Galaxy Awards, 2023 Hugo Awards, Lodestar Award for Best Young Adult Book, and Astounding Award for Best New Writer closed on April 30, 2023. Finalists will be revealed by the Chengdu 2023 Worldcon committee at a date yet to be announced.</p>
+					</div>
+				</div>
+				<div class="insideline2 border">
+					<div class="insideline2-1">
+						<p>Awards by Year</p>
+					</div>
+						<div class="blackbox"></div>
+					<div class="insideline2-2"></div>
+				</div>
+				<div class="insideline3 border">
+					<div class="insideline3-1">
+						<p>Event: Academic Presentation about AI of SF Literature in ChatGPT era</p>
+					</div>
+					<div class="blackbox"></div>
+					<div class="insideline3-2"></div>
+					<div class="blackbox"></div>
+				</div>
+				<div class="insideline4 border">
+					<div class="insideline4-1">
+						<p>Follow us : Facebook    Instagram    Twitter</p>
+					</div>
+					<div class="blackbox"></div>
+					<div class="insideline4-2 border">
+						<p>Upcoming Worldcons :</p>
+					</div>
+					<div class="insideline4-3">
+						<div class="insideline4-3-1 border">
+							<p>2023 Cheongdu Worldcons</p>
+						</div>
+						<div class="insideline4-3-2 border">
+							<p>2024 Glasgow Worldcons</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer border">
+					<p>copyright 2023. YeonuCho. All rights reserved</p>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+</html>
